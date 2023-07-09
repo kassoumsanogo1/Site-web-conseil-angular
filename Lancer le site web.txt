@@ -13,7 +13,7 @@ Consignes : Pour lancer le site web il vous faut d'abord executer les lignes de 
 
 Directives : 
 installer d'abord angular sur votre ordinateur.
-Ensuite lancer : npm install "pour installer les assets angular", sans ça vous aurez une erreur en lançant directement ng serve.
+Ensuite lancer : npm install "pour installer les assets ", sans ça vous aurez une erreur en lançant directement ng serve.
 entrez la commande : ng serve "pour lancer le server angular"
 entrez la commande : npm install -g json-server "pour lancer le server json"
 entrez la commande : json-server data.json "permet de lancer mon fichier json et n'oublier pas d'actualiser la page".
