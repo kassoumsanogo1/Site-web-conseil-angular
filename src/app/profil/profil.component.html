@@ -1,0 +1,43 @@
+<br><br><br>
+<div class="container">
+    <div class="row">
+      <div class="col-3">
+        <div class="profile">
+          <img src="../../assets/id.jpg" class="profile-picture rounded-circle text-center" alt="Photo de profil" width="200" height="200" >
+          <br><br>
+          
+            <h4 >Nom & Prenom : <span *ngIf="isLogged">{{ user['fullname'] }}</span></h4>
+            <p >
+                <b>Tel</b> : <span *ngIf="isLogged">0{{ user['mobile'] }}</span>
+            </p>
+          
+          
+        </div>
+      </div>
+      <div class="col-9">
+        <h3><a href="#">Découvrez les tendances</a></h3>
+        <br>
+        <a routerLink="/recherche" class="btn btn-primary">Accéder au formulaire</a>
+      </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h4>Accéder à nos profils :</h4>
+        <br><br>
+        <ul class="social-media">
+            <li><a href="https://wwww.facebook.com"><img src="../../assets/facebook.svg" width="70" height="70"/></a></li>
+            <li><a href="https://www.instagram.com"><img src="../../assets/instagram.svg" alt="instagram Icon" width="70" height="70"></a></li>
+            <li><a href="https://www.snapchat.com"><img src="../../assets/snapchat.svg" alt="snapchat Icon" width="70" height="70"></a></li>
+            <li><a href="https://www.pinterest.fr"><img src="../../assets/pinterest.svg" alt="pinterest Icon" width="70" height="70"></a></li>
+            <li><a href="https://twitter.com"><img src="../../assets/twitter.svg" alt="twitter Icon" width="70" height="70"></a></li>
+            <li><a href="https://www.tiktok.com"><img src="../../assets/tiktok.svg" alt="tiktok Icon" width="70" height="70"></a></li>
+            
+
+            
+          </ul>
+          
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,186 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "signupUsers": [
+    {
+      "fullname": "Kassoum sanogo",
+      "mail": "kassoum.sanogo@outlook.com",
+      "password": "kass.1",
+      "mobile": 753847383,
+      "id": 1
+    },
+    {
+      "fullname": "ird compte1",
+      "mail": "irdcount1",
+      "password": "ird.1",
+      "mobile": 7777,
+      "id": 1
+    },    
+    {
+      "fullname": "Kassoum sanogo",
+      "mail": "kassoum.sanogo@outlook.com",
+      "password": "kass.2",
+      "mobile": 753847383,
+      "superuser": true,
+      "id": 2
+    },
+    {
+      "fullname": "ird compte2",
+      "mail": "irdcount1",
+      "password": "ird.2",
+      "mobile": 7777,
+      "superuser": true,
+      "id": 2
+    }
+  ],
+  "items": [
+    
+    {
+      "name": "legion",
+      "marque": "asus",
+      "systemeOs": "windows",
+      "typeOrdi": "fixe",
+      "image": "https://storage.googleapis.com/mesimagespourangular/legion.png",
+      "prix": 300,
+      "ram": 8,
+      "stockage": 500,
+      "tailleEcran": 15,
+      "clavier": "azerty",
+      "id": 1
+    },
+    {
+      "name": "Model 4",
+      "marque": "dell ",
+      "systemeOs": "windows",
+      "typeOrdi": "portable",
+      "image": "https://storage.googleapis.com/mesimagespourangular/Dell.jpg",
+      "prix": 500,
+      "ram": 8,
+      "stockage": 500,
+      "tailleEcran": 15,
+      "clavier": "azerty",
+      "id": 2
+    },
+    {
+      "name": "Model 2",
+      "marque": "dell ",
+      "systemeOs": "windows",
+      "typeOrdi": "portable",
+      "image": "https://storage.googleapis.com/mesimagespourangular/Dell2.jpg",
+      "prix": 1100,
+      "ram": 16,
+      "stockage": 2000,
+      "tailleEcran": 16,
+      "clavier": "azerty",
+      "id": 3
+    },
+    {
+      "name": "New 22",
+      "marque": "hp",
+      "systemeOs": "linux",
+      "typeOrdi": "portable",
+      "image": "https://storage.googleapis.com/mesimagespourangular/Dell3.jpg",
+      "prix": 600,
+      "ram": 8,
+      "stockage": 1000,
+      "tailleEcran": 16,
+      "clavier": "azerty",
+      "id": 4
+    }, 
+    {
+      "name": "Bureau",
+      "marque": "lenovo ",
+      "systemeOs": "windows",
+      "typeOrdi": "fixe",
+      "image": "https://storage.googleapis.com/mesimagespourangular/Lenovo%20fixe.jpg",
+      "prix": 600,
+      "ram": 8,
+      "stockage": 500,
+      "tailleEcran": 22,
+      "clavier": "azerty",
+      "id": 5
+    },
+    {
+      "name": "New 14",
+      "marque": "hp",
+      "systemeOs": "windows",
+      "typeOrdi": "portable",
+      "image": "https://storage.googleapis.com/mesimagespourangular/hp.jpg",
+      "prix": 600,
+      "ram": 8,
+      "stockage": 1000,
+      "tailleEcran":16,
+      "clavier": "qwerty",
+      "id": 6
+    },
+    {
+      "name": "Speed",
+      "marque": "acer",
+      "systemeOs": "linux",
+      "typeOrdi": "portable",
+      "image": "https://storage.googleapis.com/mesimagespourangular/Acer.jpg",
+      "prix": 600,
+      "ram": 8,
+      "stockage": 500,
+      "tailleEcran":16,
+      "clavier": "qwerty",
+      "id": 7
+    },
+    {
+      "name": "Renova One",
+      "marque": "acer",
+      "systemeOs": "linux",
+      "typeOrdi": "portable",
+      "image": "https://storage.googleapis.com/mesimagespourangular/Acer2.jpg",
+      "prix": 900,
+      "ram": 16,
+      "stockage": 1000,
+      "tailleEcran":16,
+      "clavier": "azerty",
+      "id": 8
+    }, 
+    {
+      "name": "Renova Two",
+      "marque": "acer",
+      "systemeOs": "windows",
+      "typeOrdi": "portable",
+      "image": "https://storage.googleapis.com/mesimagespourangular/Asus.jpg",
+      "prix": 300,
+      "ram": 4,
+      "stockage": 250,
+      "tailleEcran":17,
+      "clavier": "azerty",
+      "id": 9
+    }, 
+    {
+      "name": "Renova Two",
+      "marque": "acer",
+      "systemeOs": "windows",
+      "typeOrdi": "portable",
+      "image": "https://storage.googleapis.com/mesimagespourangular/Asus10.jpg",
+      "prix": 800,
+      "ram": 4,
+      "stockage": 250,
+      "tailleEcran":15,
+      "clavier": "azerty",
+      "id": 10
+    }
+
+    
+  ]
+}

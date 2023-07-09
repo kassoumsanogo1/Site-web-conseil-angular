@@ -1,0 +1,77 @@
+
+<br/><br/>
+
+
+
+
+<div class="container">
+    
+    <div class="row">
+        <div class="col-6 offset-3 formu">
+          <h1 class="connexion">Administration</h1>
+          <div class="d-flex justify-content-center align-items-center">
+            
+            <div class="ff">
+              <form [formGroup]="form" (ngSubmit)="submitForm()">
+                <div class="ff">
+                  <div class="mb-3">
+                    
+                  </div>
+                  <div class="mb-3">
+                    <label for="nom" class="form-label">Nom</label>
+                    <input formControlName="name" type="text" class="form-control" id="nom" aria-describedby="emailHelp" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="marque" class="form-label">Marque</label>
+                    <input formControlName="marque" type="text" class="form-control" id="marque" aria-describedby="emailHelp" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="systemeOs" class="form-label">Syteme d'exploitation</label>
+                    <input formControlName="systemeOs" type="text" class="form-control" id="systemeOs" aria-describedby="emailHelp" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="systemeOs" class="form-label">Type de poste (Fixe ou Portable)</label>
+                    <input formControlName="typeOrdi" type="text" class="form-control" id="typeOrdi" aria-describedby="emailHelp" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="image" class="form-label">Image</label>
+                    <input formControlName="image" type="text" class="form-control" id="image" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="prix" class="form-label">Prix</label>
+                    <input formControlName="prix" type="number" class="form-control" id="prix" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="ram" class="form-label">RAM</label>
+                    <input formControlName="ram" type="number" class="form-control" id="ram" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="stockage" class="form-label">Stockage</label>
+                    <input formControlName="stockage" type="number" class="form-control" id="stockage" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="tailleEcran" class="form-label">Taille Ecran</label>
+                    <input formControlName="tailleEcran" type="number" class="form-control" id="tailleEcran" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="carteG" class="form-label">Carte graphique</label>
+                    <input formControlName="carteG" type="text" class="form-control" id="carteG" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="clavier" class="form-label">Type Clavier</label>
+                    <input formControlName="clavier" type="text" class="form-control" id="clavier" required>
+                  </div>
+                  <div style="text-align:center;">
+                      <button type="submit" class="btn btn-primary" >Ajouter un ordinateur</button>
+                  </div>
+                </div>
+                  
+                  
+                </form>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+    <br><br><br>
+</div>

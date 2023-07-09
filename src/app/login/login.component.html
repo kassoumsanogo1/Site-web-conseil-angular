@@ -1,0 +1,48 @@
+
+<br/><br/>
+
+
+
+
+<div class="container">
+    
+    <div class="row">
+        <div class="col-6 offset-3 formu">
+          <h1 class="connexion">Connexion</h1>
+          <div class="d-flex justify-content-center align-items-center">
+            
+            <div class="ff">
+              <form [formGroup]="loginForm" (ngSubmit)="login()">
+                <div class="ff">
+                  <div class="mb-3">
+                    
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Identifiant ou Adresse e-mail</label>
+                    <input formControlName="mail" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Nous ne communiquerons jamais votre adresse électronique à qui que ce soit.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+                    <div class="mb-3">
+                      <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <div style="text-align:center;">
+                      <button type="submit" class="btn btn-primary" >Se Connecter</button>
+                  </div>
+                  <p>si vous n'avez pas un compte <a routerLink="/signup">cliquez ici</a></p>
+                </div>
+                  
+                  
+                </form>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+</div>

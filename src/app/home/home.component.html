@@ -1,0 +1,55 @@
+<app-presentation></app-presentation>
+
+<div class="container">
+    <h2>
+        Trouvez l’ordinateur qui vous correspond !  
+    </h2>
+   
+    <div class="text-center">
+        <span>Commencer le Questionnaire ? </span> <a class="btn btn-primary" routerLink="/recherche" >Cliquez Ici !</a> 
+    </div>
+    <hr/>
+
+    
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12  custom-margin" *ngFor="let ordinateur of favoris">
+            <div class="card" style="width: 18rem;">
+                <a href ="https://www.amazon.com/">
+                    <img [src]="ordinateur.image" class="card-img-top" alt="{{ ordinateur.name }}" height="200">
+                </a>
+                
+                <div class="card-body">
+                  <p class="card-text">{{ ordinateur.marque }} {{ ordinateur.name }} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h4>Objectif du site web : </h4>
+    <a> Bienvenue sur notre site web !<br> 
+        Nous sommes ravis de vous accueillir dans notre espace en ligne dédié à <strong>Consulting Electronics</strong>. 
+        Notre objectif est de fournir une expérience unique et enrichissante à tous nos visiteurs. <br>
+        
+        <strong>Consulting Electronics</strong> est une plateforme dynamique et interactive qui offre une variété de services et 
+        de ressources pour répondre à vos besoins en matière de recherche d'ordinateur.
+        Nous vous aidons à trouver l'ordinateur qui vous correspond par le biais de notre système de filtrage.
+
+        Que vous soyez à la recherche d'ordinateur puissant, de gaming ou de design. 
+        Notre site web est conçu pour vous offrir une expérience conviviale et intuitive.
+        Nous nous engageons à vous fournir des contenus de qualité, des fonctionnalités innovantes et une navigation fluide. <br><br>  
+        Explorez nos différentes sections pour découvrir nos articles, nos vidéos, nos produits ou nos services. 
+        Que vous soyez un professionnel à la recherche de solutions, un passionné à la recherche de nouvelles découvertes ou simplement curieux,
+        vous trouverez certainement ce que vous cherchez sur <strong>Consulting Electronics</strong>. <br><br>
+        
+        Nous valorisons également votre interaction et votre participation. 
+        N'hésitez pas à partager vos commentaires, vos idées ou à nous contacter pour toute demande spécifique. 
+        Votre voix compte et nous sommes là pour vous écouter et vous servir au mieux.
+        
+        Nous espérons que votre expérience sur <strong>Consulting Electronics</strong> sera enrichissante et agréable. 
+        Profitez de notre contenu, interagissez avec notre communauté et explorez les possibilités infinies qui vous attendent. 
+        Merci de nous rejoindre et de faire partie de notre voyage en ligne. <br><br>
+        
+        Site web créé par <strong>  Kassoum Sanogo </strong></a> 
+    <br/>
+    
+</div>
+<app-footer></app-footer>

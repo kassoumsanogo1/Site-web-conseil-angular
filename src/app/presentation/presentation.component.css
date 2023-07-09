@@ -1,0 +1,40 @@
+.container-fluid{
+    margin-bottom: 50px;
+}
+
+.color{
+    background-color:#2F996C;
+    height:160px;
+    margin:0;
+    padding:0;
+}
+.color>p{
+    font-size:40px;
+    line-height: 48px;
+    font-weight: 400px;
+    font-family: 'Luckiest Guy', cursive;
+    color :#FCF0F0;
+    text-align: center;
+    
+}
+.image{
+    height:160px;
+    margin:0;
+    padding:0;
+}
+.para{
+    color :#2F996C;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400px;
+    margin-top: 25px;
+
+}
+.icon{
+    text-align:center
+}
+
+
+
+

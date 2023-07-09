@@ -1,0 +1,183 @@
+<app-presentation></app-presentation>
+<div id="form">
+    <form [formGroup]="searchForm" (ngSubmit)="search()">
+        <h4 class="title-section">Caractéristiques matérielles</h4>
+        <article class="question">
+            <p class="title">Marque</p>
+            <input type="radio" id="w1"  value="hp" formControlName="marque">
+            <label for="w1">HP</label>
+        
+        
+            <input type="radio" id="w2"  value="asus" formControlName="marque">
+            <label for="w2">Asus</label>
+        
+        
+            <input type="radio" id="w3" value="dell" formControlName="marque">
+            <label for="w3">Dell</label>
+
+            <input type="radio" id="w4"  value="lenovo" formControlName="marque">
+            <label for="w4">Lenovo</label>
+
+            <input type="radio" id="w5"  value="Acer" formControlName="marque">
+            <label for="w5">Acer</label>
+
+            <input type="radio" id="peuimporte"  value="autre" formControlName="marque">
+            <label for="peuimporte">Peu Importe</label>  
+        </article>
+
+            <article class="question">
+                <p class="title">Budget maximum</p>
+                <input type="radio" id="option1"  value="300" formControlName="budget">
+                <label for="option1" class="active">Moins de 300€</label>
+            
+            
+                <input type="radio" id="option2"  value="500" formControlName="budget">
+                <label for="option2">Entre 300 et 500€</label>
+            
+            
+                <input type="radio" id="option3"  value="800" formControlName="budget">
+                <label for="option3">Entre 500 et 800€</label>
+    
+                <input type="radio" id="option4"  value="850" formControlName="budget"/>
+                <label for="option4">Plus de 800€</label>
+            </article>
+
+            <article class="question">
+                <p class="title">Utilisation principal</p>
+                <input type="radio" id="media"  value="multimedia" formControlName="Utilisation">
+                <label for="media">Multimédia</label>
+            
+            
+                <input type="radio" id="game"  value="gaming" formControlName="Utilisation">
+                <label for="game">Gaming</label>
+            
+            
+                <input type="radio" id="pro"  value="professionnel" formControlName="Utilisation">
+                <label for="pro">Travail professionnel</label>
+    
+                <input type="radio" id="divers"  value="divertissement" formControlName="Utilisation">
+                <label for="divers">Navigation sur internet/Divertissement</label>
+            </article>
+
+            <article class="question">
+                <p class="title">Préférence</p>
+                <input type="radio" id="laptop"  value="portable" formControlName="preference">
+                <label for="laptop">Ordinateur portable (laptop)</label>
+            
+            
+                <input type="radio" id="fixe"  value="fixe" formControlName="preference">
+                <label for="fixe">Ordinateur fixe (desktop)</label>
+            
+            
+                <input type="radio" id="paschoix"  value="aucune" formControlName="preference">
+                <label for="paschoix">Peu importe</label>
+    
+                
+            </article>
+
+            <article class="question">
+                <p class="title">Taille de l'écran</p>
+                <input type="radio" id="pouce13"  value="13" formControlName="tailleEcran">
+                <label for="pouce13">13 pouces</label>
+            
+            
+                <input type="radio" id="pouce15"  value="15" formControlName="tailleEcran">
+                <label for="pouce15">15 pouces</label>
+            
+            
+                <input type="radio" id="pouce17"  value="17" formControlName="tailleEcran">
+                <label for="pouce17">17 pouces</label>
+
+                <input type="radio" id="pouceplus"  value="18" formControlName="tailleEcran">
+                <label for="pouceplus">Plus de 17 pouces</label>  
+            </article>
+
+            <article class="question">
+                <p class="title">Carte graphique</p>
+                <input type="radio" id="graphique1"  value="option1">
+                <label for="graphique1">Besoin d'une carte graphique performante pour les jeux vidéo ou les applications</label>
+            <br/>
+            
+                <input type="radio" id="graphique2"  value="option2">
+                <label for="graphique2">Pas besoin d'une carte graphique performante</label>    
+            </article>
+
+            <article class="question">
+                <p class="title">Stockage</p>
+                <input type="radio" id="go250"  value="250" formControlName="stockage">
+                <label for="go250">250 Go</label>
+
+                <input type="radio" id="go500"  value="500" formControlName="stockage">
+                <label for="go500">500 Go</label>
+            
+            
+                <input type="radio" id="to1"  value="1000" formControlName="stockage">
+                <label for="to1">1 To</label>
+            
+            
+                <input type="radio" id="to2"  value="2000" formControlName="stockage">
+                <label for="to2"> 2 To</label>
+            </article>
+
+            <article class="question">
+                <p class="title">Lecteur CD/DVD</p>
+                <input type="radio" id="oui" value="oui" formControlName="lecteur">
+                <label for="oui">Oui</label>
+            
+            
+                <input type="radio" id="nom"  value="non" formControlName="lecteur">
+                <label for="nom">Non</label>
+            </article>
+
+            <article class="question">
+                <p class="title">Autonomie de la batterie</p>
+                <input type="radio" id="plus4"  value="6" formControlName="autonomie">
+                <label for="plus4">6 heures</label>
+            
+            
+                <input type="radio" id="plus6"  value="8" formControlName="autonomie">
+                <label for="plus6">8 heures</label>
+            
+            
+                <input type="radio" id="plus8"  value="9" formControlName="autonomie">
+                <label for="plus8">Plus de 8 heures</label>
+ 
+            </article>
+
+            <h4 class="title-section">Préférences personnelles</h4>
+            
+            
+            <article class="question">
+                <p class="title">Type de Clavier</p>
+                <input type="radio" id="Oui"  value="azerty" formControlName="clavier">
+                <label for="Oui">Azerty</label>
+            
+            
+                <input type="radio" id="Non" value="qwerty" formControlName="clavier">
+                <label for="Non">Qwerty</label>
+            </article>
+
+            <article class="question">
+                <p class="title">Système d'exploitation</p>
+                <input type="radio" id="windows" value="windows" formControlName="systemExploitation">
+                <label for="windows">Windows</label>
+            
+            
+                <input type="radio" id="mac"  value="macos" formControlName="systemExploitation">
+                <label for="mac">MacOS</label>
+            
+            
+                <input type="radio" id="linux"  value="linux" formControlName="systemExploitation">
+                <label for="linux">Linux</label>
+
+            </article>
+
+            <button type="submit" class="soumission">Voir les recommandations</button>
+
+            
+       
+    </form>
+    
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,18 @@
+.text-center{
+    font-family: 'Luckiest Guy', cursive;
+    font-size : 25px;
+}
+.card-body{
+    text-align: center;
+}
+.card-img-top{
+    border-bottom: 1px #2F996C solid;
+}
+.card{
+    border: 1px #2F996C solid;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.container{
+    text-align: center;
+}

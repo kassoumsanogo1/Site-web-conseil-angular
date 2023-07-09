@@ -1,0 +1,7 @@
+.nav-link:hover{
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 700px;
+}

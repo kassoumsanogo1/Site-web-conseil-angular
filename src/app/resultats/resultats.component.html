@@ -1,0 +1,33 @@
+
+
+<app-presentation></app-presentation>
+
+<h1 class='text-center'>Les ordinateurs correspondants à votre recherche</h1>
+
+<div class="container">
+    <div class="row">
+        <div class=" item col-sm-6 col-md-4 col-lg-3" *ngFor="let item of items">
+            <div class="card" style="width: 18rem;">
+                <img [src]="item.image" width ="150" height="250" class="card-img-top" alt="legion">
+                <div class="card-body">
+                  <h5 class="card-title"><b>{{ item.marque }} {{ item.name }}</b></h5>
+                  <p class="card-text">RAM: {{ item.ram }} Go</p>
+                  <p class="card-text">Stockage: {{ item.stockage }} Go</p>
+                  <p class="card-text">Prix: ~ {{ item.prix }} $</p>
+                  <a href="https://www.amazon.com/" class="btn btn-primary" title="vous serez rediriger vers le site du vendeur" target="_blank">En savoir plus...</a>
+                </div>
+              </div> 
+        </div>
+     
+    </div>
+    
+</div>
+
+
+
+
+
+
+  <div style="margin-bottom:250px;"></div>
+
+  <app-footer></app-footer>
