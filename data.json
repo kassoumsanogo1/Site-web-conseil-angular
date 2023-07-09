@@ -25,10 +25,10 @@
       "id": 1
     },
     {
-      "fullname": "ird compte1",
-      "mail": "irdcount1",
+      "fullname": "Ahmad Fall",
+      "mail": "ird@gmail.com",
       "password": "ird.1",
-      "mobile": 7777,
+      "mobile": 755921456,
       "id": 1
     },    
     {
@@ -40,10 +40,10 @@
       "id": 2
     },
     {
-      "fullname": "ird compte2",
-      "mail": "irdcount1",
+      "fullname": "Ahmad IRD",
+      "mail": "ird@gmail.com",
       "password": "ird.2",
-      "mobile": 7777,
+      "mobile": 755921456,
       "superuser": true,
       "id": 2
     }
