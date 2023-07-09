@@ -18,7 +18,8 @@ entrez la commande : ng serve "pour lancer le server angular"
 entrez la commande : npm install -g json-server "pour lancer le server json"
 entrez la commande : json-server data.json "permet de lancer mon fichier json et n'oublier pas d'actualiser la page".
 
-voici votre compte pour vous connectez : 
+
+Pour plus de fonctionnalités, voici votre compte pour vous connectez : 
 compte normal
 identifiant : ird@gmail.com
 mot de passes : ird.1
